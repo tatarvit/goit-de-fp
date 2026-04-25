@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+*.sqlite3
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Spark / Hadoop
+spark-warehouse/
+metastore_db/
+
+# Data Lake layers
+landing/
+bronze/
+silver/
+gold/
+
+# Checkpoints
+checkpoint/
+
+# Prefect
+.prefect/
+
+# Logs
+logs/
+*.log
+
+# IDE
+.vscode/
+.idea/
+
+# environment
+.env
+client.properties
